@@ -1,0 +1,147 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 30px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueExample2 {
+    width: 80px;
+    background-color: blue;
+  }
+
+  .wrapper3 {
+    display: flex;
+    height: 30px;
+    background-color: green;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .blueExample3 {
+      width: 80px;
+      background-color: blue;
+  }
+
+  .redExample3 {
+    width: 80px;
+    background-color: red;
+    justify-content: left;
+}
+
+.wrapper4 {
+    display: flex;
+    height: 30px;
+    background-color: red;
+    margin-bottom: 20px;
+    flex-direction: row-reverse;
+  }
+
+.blueExample4 {
+    width: 80px;
+    background-color: blue;
+}
+
+.redSquare {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+ 
+.wrapper6 {
+    display: flex;
+    height: 30px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.blueExample6 {
+    width: 80px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper7 {
+    display: flex;
+    height: 30px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+.redExample7 {
+    width: 80px;
+    background-color: red;
+}
+
+.greenLine {
+    display:flex;
+    flex:1;
+    height: 25%;
+    background-color: green;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.wrapper8 {
+    display: flex;
+    height: 30px;
+    background-color: green;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+.yellowDiv {
+    background-color: orange;
+    width: 80px;
+}
+
+.wrapper9 {
+    display: flex;
+    height: 30px;
+    background-color: orange;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.greenDiv {
+    background-color: green;
+    width: 40px;
+}
+
+  /* TODO: Add CSS for the rest of your solution below */
